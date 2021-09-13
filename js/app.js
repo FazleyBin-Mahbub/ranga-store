@@ -232,7 +232,7 @@ const showProducts = (products) => {
      <i class="fas fa-star"></i>
      <i class="fas fa-star-half-alt"></i>
      </div>
-     <h6> (<span class"rating-color">${product.rating.count} </span> Review) </h6>
+     <h6> (<span class="rating-color">${product.rating.count} </span> Review) </h6>
       <h2>Price: $${product.price}</h2>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add to cart</button>
       <button id="details-btn" class="btn btn-secondary">Details</button></div>
