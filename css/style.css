@@ -37,6 +37,7 @@ body {
   transition: 0.6s;
   box-shadow: 1px 1px 10px rgb(212, 219, 217);
   border: 1px solid white;
+
   margin-bottom: 10px;
   margin-left: 10px;
 }
@@ -49,17 +50,17 @@ body {
   width: 150px;
   height: 150px;
 }
-.rating {
+.rating-color {
   color: #ffc239;
 }
 
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
+
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
-  margin-right: 30px;
+  margin-right: 50px;
   margin-top: 50px;
   position: fixed;
 }
